@@ -1,0 +1,8 @@
+.aaa {
+	font-family: Tortuga;
+}
+
+@font-face {
+	font-family : "Tortuga";
+	src: url("police/JackPirate.ttf") format("truetype");
+}
