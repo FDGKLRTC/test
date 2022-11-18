@@ -1,0 +1,3 @@
+medhi : Home Page, JavaScript, Trouver des images et noms de produit et prix de catégorie différentes (plus des fakes)
+Alix : Histoire, 3-4 samples, créer une description
+Abdel : Comment nous contacter, catégorie d'articles

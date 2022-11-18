@@ -2,7 +2,16 @@
 	font-family: Tortuga;
 }
 
+* {
+	font-family : Sunflower;
+}
+
+
 @font-face {
 	font-family : "Tortuga";
 	src: url("police/JackPirate.ttf") format("truetype");
+}
+@font-face {
+	font-family : "Sunflower";
+	src: url("police/Sunflower.otf") format("Opentype");
 }

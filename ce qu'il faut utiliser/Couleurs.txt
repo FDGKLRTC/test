@@ -1,0 +1,4 @@
+Gris : #E0E0E0 | 224, 224, 224
+Blanc : #FFFFFF | 255, 255, 255
+Bleu : #81D4FA | 129, 212, 250
+Bleu BG : #E0F7FA | 224, 247, 250
