@@ -1,0 +1,85 @@
+
+
+#Q1
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Définition d'un sinus
+amplitude=2
+frequence=1
+dephasage=0
+
+t = 1.
+def sinus(t,amplitude,frequence,dephasage):
+    return amplitude* np.sin(2. * np.pi * t * frequence + dephasage)
+
+
+D = 2. # Duree d'observations
+#simulation d'un temps continu
+tp = np.linspace(0., D, 1000) # Grille plus fine pour tracer l'allure du signal parfait
+plt.plot(tp, sinus(tp,amplitude,frequence,dephasage), 'b--', label = u"Signal reel")
+plt.title("signal (quasi)-original")
+
+print(sinus(t,amplitude,frequence,dephasage))
+
+
+# Echantillonnage
+
+"""
+fe = 1 # Frequence d'echantillonnage inacceptable
+fe = 5  # Frequence d'echantillonnage acceptable
+"""
+fe = 20 # Frequence d'echantillonnage quasi parfaite
+
+N = int(D * fe) + 1 # Nombre de points enregistres
+
+# Grille d'echantillonnage
+te = np.linspace(0., (N-1)/fe, N)
+
+signal = sinus(te, amplitude, frequence, dephasage)
+
+
+def seuil(signal):
+    return (np.max(signal) - np.min(signal)*np.min(signal)) / 2
+
+
+# QUESTION 3
+def binarisation(signal, seuil):
+    sig = signal
+    for i in range(len(signal)):
+        if signal[i] < seuil:
+            sig[i] = 0
+        else:
+            sig[i] = 1
+    return sig
+
+
+binarise = binarisation(signal,seuil(signal))
+print(np.max(signal),"AAAA",np.min(signal))
+
+# Trace du signal
+plt.figure(figsize=(10,5))
+plt.plot(te, sinus(te,amplitude,frequence,dephasage), 'og-', label = u"Signal echantillonne interpolé")
+plt.plot(te, sinus(te,amplitude,frequence,dephasage), 'or', label = u"Signal echantillonne")
+plt.plot(tp, sinus(tp,amplitude,frequence,dephasage), 'b--', label = u"Signal reel")
+plt.figure(figsize=(10,5))
+plt.title("binarisation d'un signal")
+plt.plot(binarise)
+plt.grid()
+plt.xlabel("Temps $t$")
+plt.ylabel("Amplitude $x(t)$")
+plt.legend(loc='lower left')
+plt.show()
+
+
+
+# Qa 2) a)fmax = max(f1,f2)     fe > max(f1,f2)
+
+# b)fmax = f1    fe>2f1
+
+# c)fmax = f1    fe>2f1
+
+# d)fe>2f1
+
+# e)fe>2f1+f2
