@@ -1,12 +1,43 @@
+.HomePage{
+	background-color:#E0F7FA;
+}
+
+
 .nom2marque {
 	font-family: Tortuga;
+	text-align:center;
+	font-size:50px;
 }
+.menu{
+	display:flex;
+	flex:1;
+	margin-left:80px;
+	margin-right:80px;
+}
+.col{
+	flex:1;
+	border:1px solid grey;
+	text-align:center;
+	font-size:20px
+
+}
+.dropdown{
+	flex:1;
+	border:1px solid grey
+}
+
+	
+	
+}	
 
 * {
 	font-family : Sunflower;
 }
 
-
+.liens{
+	color:black;
+	text-decoration:none
+}
 @font-face {
 	font-family : "Tortuga";
 	src: url("police/JackPirate.ttf") format("truetype");
@@ -15,3 +46,4 @@
 	font-family : "Sunflower";
 	src: url("police/Sunflower.otf") format("Opentype");
 }
+
