@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background:#81D4FA;
+}
+
+.main{
+  margin-top: -10px;
+  display:flex;
+  flex-wrap:wrap;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:20px;
+}
+.main .content .card .left{
+   padding: 20px;
+   background-color:black;
+   color:#fff;
+   max-width: 200px;
+   margin-left:120px;
+}
+.main .content .card .right img{
+    height:300px;
+    width: 300px;
+    margin-top: 5px;
+}
+.main .content .card .big .immggg{
+    height:300px;
+    width: 500px;
+    margin-top: 5px;
+    margin-left: -80px;
+}
+.main .content .card .big .immgggg{
+    height:300px;
+    width: 500px;
+    margin-top: 5px;
+    margin-left: -80px;
+}
+.main .content .card .big .immggggh{
+    height:300px;
+    width: 500px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.main .content .card .big .text{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 60px;
+    background-color: white;
+}
+.main .content .card .big .text1{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 110px;
+    background-color: white;
+}
+.main .content .card .big img{
+    height:300px;
+    width: 800px;
+    margin-top: 5px;
+    max-width: 400px;
+    margin-left:10px;
+}
