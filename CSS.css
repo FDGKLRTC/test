@@ -1,34 +1,57 @@
 .HomePage{
+<<<<<<< HEAD
 	background-color:#E0E0E0;
 }
 .photoBox{
 	margin-left:550px;
 	margin-top:90px;
 }
+=======
+	background-color:white;
+}
 
+/*Code d'Alix*/
+>>>>>>> a825dfab3a9775432106e39c9b779e80efd391d4
+
+
+/*Fin du code d'Alix*/
+
+/*Code d'Abdel*/
+
+
+/*Fin du code code d'Abdel*/
+
+
+
+
+
+
+/*Code de Medhi*/
 .nom2marque {
 	font-family: Tortuga;
 	text-align:center;
 	font-size:50px;
 }
+
 .menu{
 	display:flex;
 	flex:1;
 	margin-left:80px;
 	margin-right:80px;
+	background-color : #E0F7FA;
 }
 .col{
 	flex:1;
 	border:1px solid grey;
 	text-align:center;
-	font-size:20px
+	font-size:20px;
 
 }
 .dropdown{
 	flex:1;
 	border:1px solid grey
 }
-
+/*Fin du code de Medhi*/
 	
 	
 }	
