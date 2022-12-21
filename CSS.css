@@ -1,7 +1,10 @@
 .HomePage{
-	background-color:#E0F7FA;
+	background-color:#E0E0E0;
 }
-
+.photoBox{
+	margin-left:550px;
+	margin-top:90px;
+}
 
 .nom2marque {
 	font-family: Tortuga;
@@ -45,5 +48,15 @@
 @font-face {
 	font-family : "Sunflower";
 	src: url("police/Sunflower.otf") format("Opentype");
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+.slides {
+  display: none;
 }
 
