@@ -13,7 +13,7 @@
 		
 		<div class="menu">
 	  <div class="col">
-	  <a href="Home-page 55.html" class="liens">Accueil</a>
+	  <a href="Home-page.html" class="liens">Accueil</a>
 	  </div>
 	  <div class="dropdown">
 	    <button  class="btn  dropdown-toggle test" style="width:100%"style="text-align:center"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,30 +27,27 @@
 		 </ul>
 	   </div>
 	  <div class="col">
-	   <a href="histoire.html" class="liens">Histoire</a>
+	   <a href="#" class="liens">Histoire</a>
 	  </div>
 	  <div class="col">
 	   <a href="#" class="liens">liens et contact</a>
 	 </div>
 	 </div>
 	 
-	 <h1 class = "titrearticle">Pantalon Naruto</h1>
+	 <p class = "titrearticle">Chaussures Lightning McQueen</p>
 	 <div class = "bordure">
 	 <div class = "dive">
-	 <div class = "image"><img src="https://tse3.mm.bing.net/th?id=OIP.DsBQqQ_aH0SqlLbCZpmD2gHaQ7&pid=Api&P=0"></div>
+	 <div class = "image"><img src="https://sp.yimg.com/ib/th?id=OPE.k7M2%2bOKiL9la7g300C300&pid=21.1&w=&h="></div>
 	 </div>
 	 <div class = "diviseur2">
-		<h2>Prix : 15.99€</h2>
+		<h2>Prix : 599.99€</h2>
 		<div class = "gris">
-		<p>taille : 36/38/40/42/44/46 <br>
+		<p>taille : 36/37/38/39/40/41 <br>
 		Livraison gratuite en magasin dès 15€</p>
 		<p class = "definition">
-		PRENEZ DES AIRS DE NARUTO UZUMAKI A L'AIDE DE CE PANTALON 
-		CALQUE SUR CELUI DE L'HOKAGE! Qualité tissu: 
-		Grammage amélioré (180grs /m2) Composition: 80% COTON, 
-		20% POLYESTER Finitions avancées: Coutures renforcées Dessin Naruto 
-		imprimé directement a chaud Laver a 30 degrés au minimum,
-		en machine LIVRAISON OFFERTE PARTOUT EN FRANCE
+		Baskets de chaussures en toile, enfants,
+		personnalisés à la main avec les voitures Disney Lightning Mcqueen
+		et le tissu de personnage Gang Squares.
 		</p>
 		</div>
 		<div class = "achete">

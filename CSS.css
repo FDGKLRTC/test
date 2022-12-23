@@ -1,20 +1,69 @@
 .HomePage{
-<<<<<<< HEAD
 	background-color:#E0E0E0;
 }
 .photoBox{
 	margin-left:550px;
 	margin-top:90px;
-}
-=======
 	background-color:white;
 }
-
+	
 /*Code d'Alix*/
->>>>>>> a825dfab3a9775432106e39c9b779e80efd391d4
 
+.bordure {
+	display : flex;
+	justify-content: space-around;
+	border : #E0E0E0 solid 10px;	
+}
+
+.titrearticle {
+	text-align : center;
+	font-size : 30px;
+	padding-top : 2%;
+}
+
+.dive {
+	display : flex;
+	flex : 1;
+	justify-content: center;
+}
+
+.diviseur2 {
+	display : flex;
+	flex : 1;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color : #E0F7FA;
+}
+
+.gris {
+	padding-right : 10%;
+	padding-left : 10%;
+}
+
+.image img{
+	max-height : 500px;
+	width : auto;
+}
+
+.achete {
+	padding-top : 5%;
+}
+
+.definition {
+	padding-top : 5%;
+}
+
+.histoire {
+	padding-top : 3%;
+	padding-left : 10%;
+	padding-right : 10%;
+}
 
 /*Fin du code d'Alix*/
+
+
+
 
 /*Code d'Abdel*/
 
@@ -31,6 +80,7 @@
 	font-family: Tortuga;
 	text-align:center;
 	font-size:50px;
+	background-color : #E0E0E0;
 }
 
 .menu{
@@ -53,8 +103,6 @@
 }
 /*Fin du code de Medhi*/
 	
-	
-}	
 
 * {
 	font-family : Sunflower;
