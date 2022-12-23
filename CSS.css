@@ -10,13 +10,28 @@
 /*Code d'Alix*/
 
 .bordure {
+	margin-top : 2%;
 	display : flex;
 	justify-content: space-around;
 	border : #E0E0E0 solid 10px;	
 }
 
-.bordure img {
-	height : 500px;
+.bordurebas {
+	margin-top : 2%;
+	display : flex;
+	justify-content: space-around;
+	border : #E0E0E0 solid 10px;	
+	flex-direction: column;
+	margin : 2%;
+}
+
+.textebas {
+	display : flex;
+	text-align : center;
+}
+
+.textebas p {
+	flex : 1;
 }
 
 .titrearticle {
@@ -46,7 +61,22 @@
 }
 
 .image img{
-	max-height : 500px;
+	height : 500px;
+	width : auto;
+}
+
+.imagesbas {
+	display : flex;
+	justify-content: space-evenly;
+}
+
+.petiteimage {
+	text-align : center;
+	flex : 1;
+}
+
+.petiteimage img{
+	height : 200px;
 	width : auto;
 }
 
