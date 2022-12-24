@@ -17,14 +17,12 @@
 }
 
 .bordurebas {
-	margin-top : 2%;
 	display : flex;
 	justify-content: space-around;
-	border : #E0E0E0 solid 10px;	
-	flex-direction: column;
-	margin : 2%;
+	border : #E0E0E0 solid 10px;
+	margin : 2% 10% 2% 10%;
 }
-
+/* a supprimer plus tard
 .textebas {
 	display : flex;
 	text-align : center;
@@ -33,7 +31,7 @@
 .textebas p {
 	flex : 1;
 }
-
+*/
 .titrearticle {
 	text-align : center;
 	font-size : 30px;
@@ -64,7 +62,7 @@
 	height : 500px;
 	width : auto;
 }
-
+/* a supprimer plus tard
 .imagesbas {
 	display : flex;
 	justify-content: space-evenly;
@@ -76,6 +74,19 @@
 }
 
 .petiteimage img{
+	height : 200px;
+	width : auto;
+}
+*/
+
+.elementbas {
+	display : flex;	
+	text-align : center;
+	flex : 1;
+	justify-content: center;
+	flex-direction: column;
+}
+.elementbas img {
 	height : 200px;
 	width : auto;
 }
