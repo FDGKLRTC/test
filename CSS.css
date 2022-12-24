@@ -1,5 +1,5 @@
 .HomePage{
-	background-color:#E0E0E0;
+	background-color:white;
 }
 .photoBox{
 	margin-left:550px;
@@ -22,16 +22,7 @@
 	border : #E0E0E0 solid 10px;
 	margin : 2% 10% 2% 10%;
 }
-/* a supprimer plus tard
-.textebas {
-	display : flex;
-	text-align : center;
-}
 
-.textebas p {
-	flex : 1;
-}
-*/
 .titrearticle {
 	text-align : center;
 	font-size : 30px;
@@ -62,22 +53,6 @@
 	height : 500px;
 	width : auto;
 }
-/* a supprimer plus tard
-.imagesbas {
-	display : flex;
-	justify-content: space-evenly;
-}
-
-.petiteimage {
-	text-align : center;
-	flex : 1;
-}
-
-.petiteimage img{
-	height : 200px;
-	width : auto;
-}
-*/
 
 .elementbas {
 	display : flex;	
