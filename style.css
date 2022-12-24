@@ -7,48 +7,30 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
-    background:#81D4FA;
+    background:#fff;
 }
-
-.main{
-  margin-top: -10px;
-  display:flex;
-  flex-wrap:wrap;
-}
-.main .content .card{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom:20px;
-}
-.main .content .card .left{
-   padding: 20px;
-   background-color:black;
-   color:#fff;
-   max-width: 200px;
-   margin-left:120px;
-}
-.main .content .card .right img{
-    height:300px;
-    width: 300px;
-    margin-top: 5px;
-}
-.main .content .card .big .immggg{
-    height:300px;
-    width: 500px;
-    margin-top: 5px;
-    margin-left: 0px;
+.title{
+  margin-left: 600px;
 }
 
 .main .content .card .big .text{
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 15px;
+    margin-left: 80px;
     margin-right: 60px;
-    background-color: white;
+    background-color: #E0F7FA;
 }
 .main .content .card .big img{
     height:300px;
     width: 800px;
     margin-top: 5px;
     max-width: 400px;
-    margin-left:10px;
+    margin-left:500px;
+}
+
+.main .content .card .big .img{
+    height:260px;
+    width: 200px;
+    margin-top: 40px;
+    max-width: 400px;
+    margin-left:580px;
 }
